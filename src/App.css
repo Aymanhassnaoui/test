@@ -28,6 +28,49 @@
   color: #61dafb;
 }
 
+.home{
+  
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center; 
+  border-radius: 12px;
+ 
+}
+.icon {
+  font-size: 24px; /* Taille de l'icône */
+  color: #000; /* Couleur de l'icône par défaut */
+  cursor: pointer; /* Curseur pour indiquer que l'icône est cliquable */
+
+  /* Effet de survol */
+  transition: color 0.3s ease; /* Animation de transition */
+}
+
+.icon:hover {
+  color: #007bff; /* Changement de couleur au survol */
+}
+
+
+.email-icon {
+  cursor: pointer; /* Change le curseur au survol */
+}
+
+.serch {
+  margin: 12px;
+  text-align: center;
+}
+
+
+.custom-search {
+  position: fixed;
+  z-index: 1;
+  width: 390px;
+  top: 32px;
+  right: 160px;
+  left: 1506px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
